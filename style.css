@@ -37,3 +37,10 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
