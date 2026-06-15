@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,3 +9,9 @@ body {
     background: #f4f3ee;
     padding: 30px;
 }
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
