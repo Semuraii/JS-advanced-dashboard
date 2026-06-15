@@ -64,3 +64,7 @@ button {
 .favorite {
     border-left: 6px solid gold;
 }
+
+.book h3 {
+    margin-bottom: 10px;
+}
