@@ -32,3 +32,8 @@ input, select, button {
     border : 1px solid #ccc;
     border-radius: 5px;
 }
+
+button {
+    cursor: pointer;
+    border-radius: 5px;
+}
