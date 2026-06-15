@@ -68,3 +68,13 @@ button {
 .book h3 {
     margin-bottom: 10px;
 }
+
+.book-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.book-buttons button {
+    flex: 1;
+}
