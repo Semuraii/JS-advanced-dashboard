@@ -7,3 +7,13 @@ const genreInput = document.querySelector("#genre");
 function saveBooks() {
     localStorage.setItem("books", JSON.stringify(books));
 }
+
+function renderBooks() {
+    let filteredBooks = [...books];
+
+    if (filterGenre.value) {
+        filteredBooks = filteredBooks.filter(
+            book => book.genre === filterGenre.value
+        );
+    }
+}
