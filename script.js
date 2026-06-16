@@ -17,3 +17,6 @@ function renderBooks() {
         );
     }
 }
+
+filteredBooks.sort((a, b) => a[sortBooks.value].localeCompare(b[sortBooks.value]));
+ 
