@@ -38,3 +38,14 @@ function updateGenres() {
         `<option value="${genre}">{genre}</option>`
     ).join("");
 }
+
+addBookBtn.addEventListener("click", () => {
+    const title = titleInput.value.trim();
+    const author = authorInput.value.trim();
+    const genre = genreInput.value.trim();
+
+    if (!title || !author || !genre) {
+        alert("Fyll ut alle feltene!");
+        return;
+    }
+})
