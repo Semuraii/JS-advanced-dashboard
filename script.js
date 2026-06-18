@@ -16,7 +16,17 @@ function renderBooks() {
             book => book.genre === filterGenre.value
         );
     }
+
+    filteredBooks.sort((a, b) => a[sortBooks.value].localeCompare(b[sortBooks.value]));
+
+    bookList.innerHTML = filteredBooks.map(book => {
+        return `
+            <li class="book-item">
+                <h3>${book.title}</h3>
+                <p>Author: ${book.author}</p>
+                <p>Genre: ${book.genre}</p>
+            </li>
+        `;
+    }).join("");
 }
 
-filteredBooks.sort((a, b) => a[sortBooks.value].localeCompare(b[sortBooks.value]));
- 
