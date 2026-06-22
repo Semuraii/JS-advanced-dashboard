@@ -62,4 +62,10 @@ function deleteBook(id) {
     books = books.filter(book => book.id !== id);
 }
 
-
+deleteAllBtn.addEventListener("click", () => {
+    if (confirm("Vil du slette alle bøker?")) {
+        books = [];
+        saveBooks();
+        renderBooks();
+    }
+});
