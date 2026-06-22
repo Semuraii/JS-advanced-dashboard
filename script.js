@@ -57,3 +57,9 @@ function toggleFavorite(id) {
         :book
     );
 }
+
+function deleteBook(id) {
+    books = books.filter(book => book.id !== id);
+}
+
+
