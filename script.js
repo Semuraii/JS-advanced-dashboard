@@ -72,3 +72,6 @@ deleteAllBtn.addEventListener("click", () => {
 
 filterGenre.addEventListener("change", renderBooks);
 
+sortBooks.addEventListener("change", renderBooks);
+
+renderBooks();
