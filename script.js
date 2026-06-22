@@ -69,3 +69,6 @@ deleteAllBtn.addEventListener("click", () => {
         renderBooks();
     }
 });
+
+filterGenre.addEventListener("change", renderBooks);
+
