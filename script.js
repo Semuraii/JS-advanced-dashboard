@@ -5,6 +5,9 @@ const authorInput = document.querySelector("#author");
 const genreInput = document.querySelector("#genre");
 
 const addBookBtn = document.querySelector("#addBook");
+const deleteAllBtn = document.querySelector("#deleteAll");
+
+
 
 
 function saveBooks() {
