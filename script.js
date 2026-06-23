@@ -7,7 +7,7 @@ const genreInput = document.querySelector("#genre");
 const addBookBtn = document.querySelector("#addBook");
 const deleteAllBtn = document.querySelector("#deleteAll");
 
-
+const filterGenre = document.querySelector("#filterGenre");
 
 
 function saveBooks() {
