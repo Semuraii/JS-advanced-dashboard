@@ -8,6 +8,7 @@ const addBookBtn = document.querySelector("#addBook");
 const deleteAllBtn = document.querySelector("#deleteAll");
 
 const filterGenre = document.querySelector("#filterGenre");
+const sortBooks = document.querySelector("#sortBooks");
 
 
 function saveBooks() {
