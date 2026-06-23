@@ -11,6 +11,7 @@ const filterGenre = document.querySelector("#filterGenre");
 const sortBooks = document.querySelector("#sortBooks");
 
 const bookList = document.querySelector("#bookList");
+const stats = document.querySelector("#stats");
 
 
 function saveBooks() {
