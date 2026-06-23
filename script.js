@@ -10,6 +10,8 @@ const deleteAllBtn = document.querySelector("#deleteAll");
 const filterGenre = document.querySelector("#filterGenre");
 const sortBooks = document.querySelector("#sortBooks");
 
+const bookList = document.querySelector("#bookList");
+
 
 function saveBooks() {
     localStorage.setItem("books", JSON.stringify(books));
