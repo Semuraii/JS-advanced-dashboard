@@ -30,7 +30,10 @@ function renderBooks() {
     filteredBooks.sort((a, b) => a[sortBooks.value].localeCompare(b[sortBooks.value]));
 
     bookList.innerHTML = filteredBooks.map(book => {
+
+        const {id, title, author, genre, favorite} = books;
         return `
+        <div class="book ${favorite ? "favorite":""}>
             <li class="book-item">
                 <h3>${book.title}</h3>
                 <p>Author: ${book.author}</p>
