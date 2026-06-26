@@ -52,6 +52,9 @@ function renderBooks() {
             </div>
         `;
     }).join("");
+    
+    updateGenres();
+    updateStats();
 }
 
 function updateGenres() {
