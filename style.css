@@ -80,15 +80,9 @@ button:hover {
     transform: translateY(-3px);
 }
 
-.controls {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-}
-
 .favorite {
-    border-left: 6px solid gold;
+    border-left: 8px solid #ffd166;
+    background: #fffdf5;
 }
 
 .book h3 {
