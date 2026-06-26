@@ -73,7 +73,7 @@ function updateStats() {
     }, 0);
 
     stats.innerHTML = `
-    total antall bøker: ${totalBooks}<br>
+    Total antall bøker: ${totalBooks}<br>
     Favoritter: ${favoriteCount}
     `;
 } 
