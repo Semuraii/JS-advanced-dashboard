@@ -34,11 +34,11 @@ function renderBooks() {
         const {id, title, author, genre, favorite} = book;
         return `
         <div class="book ${favorite ? "favorite":""}>
-            <li class="book-item">
-                <h3>${book.title}</h3>
-                <p><strong>Author:</strong> ${book.author}</p>
-                <p><strong>Genre:</strong> ${book.genre}</p>
-            </li>
+            <div class="book-item">
+                <h3>${title}</h3>
+                <p><strong>Author:</strong> ${author}</p>
+                <p><strong>Genre:</strong> ${genre}</p>
+            </div>
 
             <div class="book-buttons">
             <button onclick="toggleFavorite('${id}')">
