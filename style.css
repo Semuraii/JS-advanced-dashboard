@@ -24,13 +24,6 @@ h1 {
     font-size: 2.5rem;
 }
 
-.form {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
 input, select {
     padding: 12px;
     border : 2px solid #ddd;
@@ -107,3 +100,4 @@ button:hover {
 .book-buttons button:last-child:hover {
     background: #bb2d3b;
 }
+
