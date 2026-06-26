@@ -125,10 +125,12 @@ button:hover {
 
 .controls {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: 15px;
     margin-bottom: 30px;
     flex-wrap: wrap;
+    width: 400px;
+    margin: 0 auto 30px;
 }
 
 controls select {
