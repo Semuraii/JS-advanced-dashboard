@@ -62,9 +62,21 @@ function updateGenres() {
 
     filterGenre.innerHTML =
     `<option value="">Alle sjangre</options>` + genres.map(genre =>
-        `<option value="${genre}">{genre}</option>`
+        `<option value="${genre}">${genre}</option>`
     ).join("");
 }
+
+function updateStats() {
+    const totalBooks = books.length;
+    const favoriteCount = books.reduce((count, book) => {
+        return book.favorite ? count + 1 : count;
+    }, 0);
+
+    stats.innerHTML = `
+    total antall bøker: ${totalBooks}<br>
+    Favoritter: ${favoriteCount}
+    `;
+} 
 
 addBookBtn.addEventListener("click", () => {
     const title = titleInput.value.trim();
