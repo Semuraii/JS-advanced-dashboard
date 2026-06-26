@@ -87,6 +87,16 @@ addBookBtn.addEventListener("click", () => {
         alert("Fyll ut alle feltene!");
         return;
     }
+
+    const newBook = {
+        id: crypto.randomUUID(),
+        title,
+        author,
+        genre,
+        favorite: false
+    };
+
+    
 })
 
 function toggleFavorite(id) {
