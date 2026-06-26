@@ -31,7 +31,7 @@ function renderBooks() {
 
     bookList.innerHTML = filteredBooks.map(book => {
 
-        const {id, title, author, genre, favorite} = books;
+        const {id, title, author, genre, favorite} = book;
         return `
         <div class="book ${favorite ? "favorite":""}>
             <li class="book-item">
