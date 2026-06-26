@@ -109,7 +109,7 @@ addBookBtn.addEventListener("click", () => {
 function toggleFavorite(id) {
     books = books.map(book =>
         book.id === id
-        ? {...book, favotite: !book.favorite}
+        ? {...book, favorite: !book.favorite}
         :book
     );
 
