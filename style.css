@@ -125,3 +125,7 @@ button:hover {
     flex-wrap: wrap;
 }
 
+controls select {
+    flex: 1;
+}
+
