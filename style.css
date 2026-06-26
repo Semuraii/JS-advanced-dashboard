@@ -108,5 +108,10 @@ button:hover {
     margin-bottom: 25px;
 }
 
-
+.controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
 
