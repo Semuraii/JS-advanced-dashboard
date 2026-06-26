@@ -101,3 +101,12 @@ button:hover {
     background: #bb2d3b;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+
+
