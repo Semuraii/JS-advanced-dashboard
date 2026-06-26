@@ -62,6 +62,9 @@ button:hover {
 }
 
 .book {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     background: #fff;
     padding: 20px;
     margin-bottom: 15px;
