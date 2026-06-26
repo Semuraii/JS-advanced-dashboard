@@ -90,10 +90,9 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.book-buttons {
-    margin-top: 15px;
-    display: flex;
-    gap: 10px;
+.book-buttons button:first-child {
+    background-color: #ffd166;
+    color: black;
 }
 
 .book-buttons button {
