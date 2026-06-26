@@ -24,12 +24,13 @@ h1 {
     font-size: 2.5rem;
 }
 
-input, select {
+input, select, button {
     padding: 12px;
     border : 2px solid #ddd;
     border-radius: 10px;
     font-size: 1rem;
     transition: 0.3;
+    width: 100%;
 }
 
 input:focus,
