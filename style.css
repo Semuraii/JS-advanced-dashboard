@@ -30,7 +30,7 @@ input, select, button {
     border-radius: 10px;
     font-size: 1rem;
     transition: 0.3;
-    width: 100%;
+    width: 50%;
 }
 
 input:focus,
