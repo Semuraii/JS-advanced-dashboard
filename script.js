@@ -41,11 +41,11 @@ function renderBooks() {
             </li>
 
             <div class="book-buttons">
-            <button oneclick="toggleFavorite('${id}')">
+            <button onclick="toggleFavorite('${id}')">
             ${favorite ?"⭐ Favoritt" : "⭐ Favoritt"}
             </button>
 
-            <button oneclick="deleteBook('${id}')">
+            <button onclick="deleteBook('${id}')">
             Slett
             </button>
             </div>
