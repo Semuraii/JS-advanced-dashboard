@@ -36,9 +36,20 @@ function renderBooks() {
         <div class="book ${favorite ? "favorite":""}>
             <li class="book-item">
                 <h3>${book.title}</h3>
-                <p>Author: ${book.author}</p>
-                <p>Genre: ${book.genre}</p>
+                <p><strong>Author:</strong> ${book.author}</p>
+                <p><strong>Genre:</strong> ${book.genre}</p>
             </li>
+
+            <div class="book-buttons">
+            <button oneclick="toggleFavorite('${id}')">
+            ${favorite ?"⭐ Favoritt" : "⭐ Favoritt"}
+            </button>
+
+            <button oneclick="deleteBook('${id}')">
+            Slett
+            </button>
+            </div>
+            </div>
         `;
     }).join("");
 }
