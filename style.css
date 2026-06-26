@@ -119,6 +119,10 @@ button:hover {
     margin: 0 auto 30px auto;
 }
 
+.form input, .form button {
+    width: 100%;
+}
+
 .controls {
     display: flex;
     gap: 15px;
