@@ -61,7 +61,7 @@ function updateGenres() {
     const genres = [...new Set(books.map(book => book.genre))];
 
     filterGenre.innerHTML =
-    `<option value="">Alle sjangre</options>` + genres.map(genre =>
+    `<option value="">Alle sjangre</option>` + genres.map(genre =>
         `<option value="${genre}">${genre}</option>`
     ).join("");
 }
