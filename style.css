@@ -103,6 +103,10 @@ button:hover {
     background: #dc3545;
 }
 
+.book-buttons button:last-child:hover {
+    background: #bb2d3b;
+}
+
 .book-buttons button {
     flex: 1;
 }
