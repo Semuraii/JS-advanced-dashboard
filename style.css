@@ -30,10 +30,12 @@ h1 {
     margin-bottom: 20px;
 }
 
-input, select, button {
-    padding: 10px;
-    border : 1px solid #ccc;
-    border-radius: 5px;
+input, select {
+    padding: 12px;
+    border : 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: 0.3;
 }
 
 button {
