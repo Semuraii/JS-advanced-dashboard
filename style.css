@@ -38,9 +38,20 @@ input, select {
     transition: 0.3;
 }
 
+input:focus,
+select:focus {
+    outline:none;
+    border-color: #d4a373;
+}
+
 button {
-    cursor: pointer;
-    border-radius: 5px;
+    background: #5b4636;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .controls {
