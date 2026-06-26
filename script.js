@@ -112,10 +112,16 @@ function toggleFavorite(id) {
         ? {...book, favotite: !book.favorite}
         :book
     );
+
+    saveBooks();
+    renderBooks();
 }
 
 function deleteBook(id) {
     books = books.filter(book => book.id !== id);
+
+    saveBooks();
+    renderBooks();
 }
 
 deleteAllBtn.addEventListener("click", () => {
