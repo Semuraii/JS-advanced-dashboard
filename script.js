@@ -96,8 +96,15 @@ addBookBtn.addEventListener("click", () => {
         favorite: false
     };
 
-    
-})
+    books.push(newBook);
+
+    saveBooks();
+    renderBooks();
+
+    titleInput.value = "";
+    authorInput.value = "";
+    genreInput.value = "";
+});
 
 function toggleFavorite(id) {
     books = books.map(book =>
