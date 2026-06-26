@@ -95,6 +95,10 @@ button:hover {
     color: black;
 }
 
+.book-buttons button:first-child:hover {
+    background: #f4c542;
+}
+
 .book-buttons button {
     flex: 1;
 }
