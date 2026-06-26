@@ -129,3 +129,8 @@ controls select {
     flex: 1;
 }
 
+controls button {
+    width: auto;
+    padding: 12px 20px;
+}
+
